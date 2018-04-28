@@ -4,16 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>Northwind_tasks_1_2_</Name>
+    <Name>Northwind.1.0</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{90430b98-d2c8-43ff-9fb1-559f0732914b}</ProjectGuid>
+    <ProjectGuid>{55b75bc6-cef2-4ff4-94b0-11dfdbd04a0c}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>Northwind_tasks_1_2_</RootNamespace>
-    <AssemblyName>Northwind_tasks_1_2_</AssemblyName>
+    <RootNamespace>Northwind.1.0</RootNamespace>
+    <AssemblyName>Northwind.1.0</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -62,17 +62,6 @@
     <Folder Include="dbo\Views\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="Scripts\" />
-    <Folder Include="Task1" />
-    <Folder Include="Task1\Task1.1" />
-    <Folder Include="Task1\Task1.2" />
-    <Folder Include="Task1\Task1.3" />
-    <Folder Include="Task1\Task1.4" />
-    <Folder Include="Task2" />
-    <Folder Include="Task2\Task2.1" />
-    <Folder Include="Task2\Task2.2" />
-    <Folder Include="Task2\Task2.3" />
-    <Folder Include="Task2\Task2.4" />
-    <Folder Include="Task3" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Employees.sql" />
@@ -112,33 +101,5 @@
     <Build Include="dbo\Stored Procedures\CustOrderHist.sql" />
     <Build Include="dbo\Stored Procedures\SalesByCategory.sql" />
     <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Task1\Task1.1\Subtask1.1.1.sql" />
-    <None Include="Task1\Task1.1\Subtask1.1.2.sql" />
-    <None Include="Task1\Task1.1\Subtask1.1.3.sql" />
-    <None Include="Task1\Task1.2\Subtask1.2.1.sql" />
-    <None Include="Task1\Task1.2\Subtask1.2.2.sql" />
-    <None Include="Task1\Task1.2\Subtask1.2.3.sql" />
-    <None Include="Task1\Task1.3\Subtask1.3.1.sql" />
-    <None Include="Task1\Task1.3\Subtask1.3.2.sql" />
-    <None Include="Task1\Task1.3\Subtask1.3.3.sql" />
-    <None Include="Task1\Task1.4\Subtask1.4.1.sql" />
-    <None Include="Task2\Task2.1\Subtask2.1.1.sql" />
-    <None Include="Task2\Task2.1\Subtask2.1.2.sql" />
-    <None Include="Task2\Task2.1\Subtask2.1.3.sql" />
-    <None Include="Task2\Task2.2\Subtask2.2.1.sql" />
-    <None Include="Task2\Task2.2\Subtask2.2.2.sql" />
-    <None Include="Task2\Task2.2\Subtask2.2.3.sql" />
-    <None Include="Task2\Task2.2\Subtask2.2.4.sql" />
-    <None Include="Task2\Task2.2\Subtask2.2.5.sql" />
-    <None Include="Task2\Task2.2\Subtask2.2.6.sql" />
-    <None Include="Task2\Task2.3\Subtask2.3.1.sql" />
-    <None Include="Task2\Task2.3\Subtask2.3.2.sql" />
-    <None Include="Task2\Task2.4\Subtask2.4.1.sql" />
-    <None Include="Task2\Task2.4\Subtask2.4.2.sql" />
-    <None Include="Task2\Task2.4\Subtask2.4.3.sql" />
-    <None Include="Task3\1.0_to_1.1.sql" />
-    <None Include="Task3\1.1_to_1.3.sql" />
   </ItemGroup>
 </Project>
